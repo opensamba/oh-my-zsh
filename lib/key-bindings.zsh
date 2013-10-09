@@ -44,6 +44,8 @@ bindkey "\e[3~" delete-char
 #bindkey '^[^I' reverse-menu-complete
 #bindkey '^X^N' accept-and-infer-next-history
 #bindkey '^W' kill-region
+bindkey '^U' backward-kill-line
+
 #bindkey '^I' complete-word
 ## Fix weird sequence that rxvt produces
 #bindkey -s '^[[Z' '\t'
